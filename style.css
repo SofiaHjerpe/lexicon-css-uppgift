@@ -1,18 +1,63 @@
 body {
-    background-color:rgb(171, 32, 32)
+  background-color: rgb(171, 32, 32);
+  margin: 0;
 }
 nav {
-    display: flex; 
-    justify-content: space-around;
-    flex: 1;
-    margin-inline: 200px;
-    
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  margin-inline: 500px;
+}
+
+header {
+  background-color: #34242eaa;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-family: "Spirax", sans-serif;
+  font-size: 102px;
+  color: rgb(171, 32, 32);
+  padding-top: 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
 }
 a {
-    
-font-family: 'Spirax', sans-serif;
-color: #fff;
-font-size: 42px;
-text-decoration: none;
+  font-family: "Spirax", sans-serif;
+  color: #fff;
+  font-size: 42px;
+  text-decoration: none;
+}
 
+.hot {
+  text-align: center;
+  background-image: url("hot.jpg");
+  background-repeat: no-repeat;
+  width: 1480px;
+  height: 950px;
+  margin-bottom: 0;
+  background-size: cover;
+}
+.cosy {
+  text-align: center;
+  background-image: url("cosy.jpg");
+  background-repeat: no-repeat;
+  width: 1480px;
+  height: 900px;
+  background-size: cover;
+}
+.juicy {
+  text-align: center;
+  background-image: url("juicy.jpg");
+  background-repeat: no-repeat;
+  width: 1480px;
+  height: 900px;
+  margin-top: 0;
+  background-size: cover;
 }
